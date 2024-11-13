@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PracticalTest01Var07</string>
+    <string name="textbox1">textBox1</string>
+    <string name="textbox2">textBox2</string>
+    <string name="textbox3">textbox3</string>
+    <string name="textbox4">textbox4</string>
 </resources>
