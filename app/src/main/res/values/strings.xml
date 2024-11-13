@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">PracticalTest01Var07</string>
-    <string name="textbox1">textBox1</string>
-    <string name="textbox2">textBox2</string>
+    <string name="textbox1">textbox1</string>
+    <string name="textbox2">textbox2</string>
     <string name="textbox3">textbox3</string>
     <string name="textbox4">textbox4</string>
+    <string name="value1">0</string>
+    <string name="value2">0</string>
+    <string name="value3">0</string>
+    <string name="value4">0</string>
 </resources>

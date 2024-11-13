@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".PracticalTest01Var07MainActivity">
+    android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -19,54 +14,56 @@
             android:columnCount="2"
             android:layout_gravity="center">
             <!-- First row, first column -->
-            <EditText
-                android:id="@+id/textbox1"
+            <TextView
+                android:id="@+id/value1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_row="0"
                 android:layout_column="0"
-                android:hint="Input 1" />
+                android:text="@string/value1" />
             <!-- First row, second column -->
-            <EditText
-                android:id="@+id/textbox2"
+            <TextView
+                android:id="@+id/value2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_row="0"
                 android:layout_column="1"
-                android:hint="Input 2" />
+                android:text="@string/value2" />
             <!-- Second row, first column -->
-            <EditText
-                android:id="@+id/textbox3"
+            <TextView
+                android:id="@+id/value3"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_row="1"
                 android:layout_column="0"
-                android:hint="Input 3" />
+                android:text="@string/value3" />
             <!-- Second row, second column -->
-            <EditText
-                android:id="@+id/textbox4"
+            <TextView
+                android:id="@+id/value4"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_row="1"
                 android:layout_column="1"
-                android:hint="Input 4" />
-
+                android:text="@string/value4" />
         </GridLayout>
+        <!-- Button for Sum below the GridLayout -->
+        <Button
+            android:id="@+id/buttonSum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sum"
+            android:layout_marginTop="16dp" />
 
+        <!-- Button for Product below the Sum button -->
+        <Button
+            android:id="@+id/buttonProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product"
+            android:layout_marginTop="8dp" />
     </LinearLayout>
-    <Button
-        android:id="@+id/set"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Set"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
